@@ -1,6 +1,4 @@
-Blog Preview Card
-public/design/active-states.jpg
-
+![alt text](public/design/desktop-design.jpg)
 Welcome! 👋
 Thank you for checking out this front-end coding challenge from Frontend Mentor.
 
