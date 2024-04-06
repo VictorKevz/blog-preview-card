@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+.outer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex: 1;
+}
+.inner-container{
+    height: 520px;
+    width: 382px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+    border: 1px solid hsl(0, 0%, 7%);
+}
+
+/* Responsiveness */
+@media screen and (max-width:500px) {
+
+   .inner-container{
+    width: 325px;
+    height: 530px;
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+
+   } 
+   .header-image{
+    width: 279px;
+    height: 200px;
+
+}
+}
+
+/* General */
+button,span,h2,footer{
+    font-weight: 800;
+
+}
+/* Header Section */
+.header-container{
+    margin: 23px 0 23px 23px;
+}
+.header-image{
+    border-radius: 5%;
+    margin-bottom: 23px;
+    transition: transform 0.5s ease;
+
+}
+.header-image:hover{
+    transform: scale(-1,1);
+}
+.header-button{
+    background-color:hsl(47, 88%, 63%) ;
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+    width: 82px;
+}
+.header-container>p{
+font-size: 12px;
+}
+
+/* Contents section */
+.contents-container{
+    margin: 23px 0 23px 23px
+}
+
+.contents-container>img{
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 33px;
+    width: 33px;
+    border-radius: 33px;
+}
+.contents-container>h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.contents-container>p{
+    line-height: 1.5;
+}
+/* Footer Section */
+footer{
+    position: absolute;
+    text-align: center;
+    align-self: self-end;
+    font-size: 10px;     
+}
+
+footer>p{
+    opacity: 0.8;
+}
+
+.icon{
+    vertical-align: middle; 
+    color: hsl(0, 0%, 100%);
+}
